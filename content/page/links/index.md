@@ -7,8 +7,8 @@ menu:
         params:
             icon: link
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: 七海の参考書
+    image: https://shiraha.cn/favicon/me/2023.jpg
+    website: https://shiraha.cn/
+    description: 哀吾生之须臾，羡长江之无穷
 ---

@@ -22,7 +22,15 @@ params:
 
     footer:
         since: 2020
-        customText: '世界啊，看到我。'
+        customText: 
+          '世界啊，看到我。
+          <br>
+          本站由 
+          <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="text-decoration:none;">
+            <img src="https://upyun.inscripoem.com/static-images/upyun-logo.png" style="height:2em;display:inline-block;vertical-align:middle;margin-bottom:0.3em;"></img>
+          </a>
+          提供CDN加速/云存储服务
+          '
 
     dateFormat:
         published: Jan 02, 2006
