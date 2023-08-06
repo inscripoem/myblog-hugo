@@ -31,7 +31,7 @@ params:
     sidebar:
         compact: false
         emoji: '🕵️‍♂️'
-        subtitle: '视、听与文字表达'
+        subtitle: '视、听与文字表达（施工中）'
         avatar:
             enabled: true
             local: true
@@ -176,7 +176,7 @@ menu:
     - identifier: github
       name: github
       weight: -100
-      url: https://github.com/inscripoem
+      url: https://github.com/inscripoem/myblog-hugo
       params:
         icon: brand-github
 
@@ -190,18 +190,7 @@ markup:
       strikethrough: true
       table: true
       taskList: true
-      typographer:
-        apostrophe: '&rsquo;'
-        disable: false
-        ellipsis: '&hellip;'
-        emDash: '&mdash;'
-        enDash: '&ndash;'
-        leftAngleQuote: '&laquo;'
-        leftDoubleQuote: '&ldquo;'
-        leftSingleQuote: '&lsquo;'
-        rightAngleQuote: '&raquo;'
-        rightDoubleQuote: '&rdquo;'
-        rightSingleQuote: '&rsquo;'
+      typographer: true
     parser:
       attribute:
         block: false
