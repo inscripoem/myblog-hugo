@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = '文诗的万事屋'
+theme = 'hugo-theme-stack'
+
+[Params]
+favicon = '/favicon.png'
+
+[Params.Sidebar]
+compact = false
+emoji = '🕵️‍♂️'
+subtitle = '世界啊，看到我。'
+
+[Params.Sidebar.Avatar]
+enabled = true
+local = true
+src = 'img/avatar.png'
+
+
+[Params.Footer]
+since = 2020
+customText = '世界啊，看到我'

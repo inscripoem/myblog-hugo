@@ -1,0 +1,68 @@
+<!--石蒜插件-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.css"
+/>
+<style>
+    #sakana-widget-chisato {
+        position:fixed;
+        z-index: 9999;
+        bottom:0px;
+        right:160px;
+    }
+    #sakana-widget-takina {
+        position:fixed;
+        z-index: 9999;
+        bottom:0px;
+        right:10px;
+    }
+    @media only screen and (max-width: 768px) {
+        #sakana-widget-chisato {
+            display:none;
+        }
+        #sakana-widget-takina {
+            display:none;
+        }
+    }
+    @media print {
+        .noprint {
+            display: none 
+        }
+    }
+</style>
+<div class="noprint" id="sakana">
+    <div class="noprint" id="sakana-widget-chisato"></div>
+    <div class="noprint" id="sakana-widget-takina"></div>
+</div>
+<script>
+    
+  function initSakanaWidget() {
+    new SakanaWidget({ threshold: 0.5, controls: false, character: 'chisato' }).setState({r: 1.2}).mount('#sakana-widget-chisato');
+    new SakanaWidget({ threshold: 0, controls: false, character: 'takina' }).mount('#sakana-widget-takina');
+  }
+</script>
+<script
+  async
+  onload="initSakanaWidget()"
+  src="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.js"
+></script>
+<!--在非主页中将插件隐藏-->
+<script>
+    // 要隐藏的元素的 ID
+    const elementId = "sakana";
+  
+    // 获取当前页面 URL 的路径部分
+    const path = window.location.pathname;
+  
+    // 如果当前页面不是网站根目录
+    if (path !== "/") {
+      // 获取要隐藏的元素
+      const element = document.getElementById(elementId);
+  
+      // 如果找到了要隐藏的元素
+      if (element) {
+        // 隐藏该元素
+        element.style.display = "none";
+      }
+    }
+  </script>
