@@ -30,6 +30,9 @@ params:
             <img src="https://upyun.inscripoem.com/static-images/upyun-logo.png" style="height:2em;display:inline-block;vertical-align:middle;margin-bottom:0.3em;"></img>
           </a>
           提供CDN加速/云存储服务
+          <br>
+          <img src="https://upyun.inscripoem.com/static-images/moe-icon400.png" style="height:1.5em;display:inline-block;vertical-align:middle;margin-bottom:0.3em;">
+          <a href="https://icp.gov.moe/?keyword=20220427" target="_blank">萌ICP备20220427号</a>
           '
 
     dateFormat:
