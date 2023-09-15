@@ -33,9 +33,25 @@ menu:
 - 摆摊爱好者，CP28和CP29都是摊主兼主催，然而自认为对各种周边极其工艺还有很大的学习空间
 - Vtuber方面有一个（前）女儿[@华小科Official](https://space.bilibili.com/672455305)，在从华中科技大学新媒体中心退休的前几年担任项目主理和技术支持，我大学四年里最不后悔的一件事就是促成这个账号的诞生。
 
+## 认证
+自2023年9月15日起，我采用了一个经过[域名验证](https://keybase.io/inscripoem/sigchain#3b0458d81d79a7ae42085ca97a40b746326c40269c3171d2f4463ab8a0efb0090f)的GPG密钥来确认本人的唯一性  
+GPG证书托管在[Keybase - inscripoem](https://keybase.io/inscripoem)上，公钥可以使用以下方法获取：
+```bash
+# curl + gpg pro tip: import inscripoem's keys
+curl https://keybase.io/inscripoem/pgp_keys.asc | gpg --import
+
+# the Keybase app can push to gpg keychain, too
+keybase pgp pull inscripoem
+```
+同时自2023年9月15日起，只有以下几种情况代表我本人正发布内容：
+- 在Github中的Commit以及各种操作右侧具有`Verified`的绿色标识（如果无标识，那么尽管提交者可能使用我的名字以及邮箱进行提交，仍然不代表这是我本人的操作）
+- 经过[Keybase - inscripoem](https://keybase.io/inscripoem)认证的平台
+- 在下方[`联系我`](./#联系我)中列出的平台账号
+在这些情况之外，尽管对方可能使用我的名字或其他联系方式，但仍然不代表这是我本人，请谨慎甄别。
 
 ## 联系我
 - E-mail: [inscripoem@outlook.com](mailto:inscripoem@outlook.com)
 - Bilibili: [@文诗不是闻诗](https://space.bilibili.com/4134451)
 - Discord: `inscripoem#5867`
 - Telegram: [@inscripoem](https://t.me/inscripoem)
+- 𝕏/Twitter: [@inscripoem](https://twitter.com/inscripoem)
