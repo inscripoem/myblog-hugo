@@ -13,11 +13,11 @@ menu:
 
 **<u>本子</u>**、**<u>文诗</u>**，以及 **<u>inscripoem</u>** 这个非常蹩脚的合成词都是咱的名字，不同的名字会用在不同的场合，线下的朋友可能会更熟悉本子这个名字，而后两个名字一般会在我发布内容的时候来用。
 
-现在在华科生物医学工程读大四，方向是医学图像处理+AI但是一直想润去做脑机接口，梦想是~~做出NervGear~~将NervGear的存在尽可能拉近现世。
+现在在香港城市大学读生物医学工程硕士，方向是医学图像处理+AI但是一直想润去做脑机接口，梦想是从事将想象化为现实的工作。
 
 喜欢泛二次元相关，横跨Vocaloid与Vtuber两个大坑，也由于这个原因自学了一堆相关技术，没事喜欢搞点创作。现在偶尔会做PV、主催以及各种杂七杂八的工种，也会给学校搞一些实拍的单子。
 
-编程中有一半是学习需要，由于在做AI所以主用Python，但另一半是兴趣使然，很喜欢研究奇奇怪怪的自建服务。喜欢折腾机器人、Web技术与各种自动化措施，有个叫[东方循礼Bot](https://github.com/inscripoem/XunliBot)的孩子（停止服务中）。
+编程中有一半是学习需要，由于在做AI所以主用Python，但另一半是兴趣使然，很喜欢研究奇奇怪怪的自建服务。喜欢折腾机器人、Web技术与各种自动化措施，有个叫[东方循礼Bot](https://github.com/inscripoem/XunliBot)的QQ机器人（停止服务中）。
 
 相信工具是人类智慧的珍宝，究极资源仓鼠。会尝试很多新的工具与做很多整理。开源精神的坚实拥护者，对所有开源项目与作者都抱有敬意与憧憬。
 
@@ -44,6 +44,9 @@ curl https://keybase.io/inscripoem/pgp_keys.asc | gpg --import
 
 # the Keybase app can push to gpg keychain, too
 keybase pgp pull inscripoem
+
+# or through Github
+curl https://github.com/inscripoem.gpg | gpg --import
 ```
 
 同时自2023年9月15日起，只有以下几种情况代表我本人正发布内容：
