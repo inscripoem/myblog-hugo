@@ -49,11 +49,11 @@ params:
             src: img/avatar.png
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -187,9 +187,21 @@ menu:
     - identifier: github
       name: github
       weight: -100
-      url: https://github.com/inscripoem/myblog-hugo
+      url: https://github.com/inscripoem
       params:
         icon: brand-github
+    - identifier: bilibili
+      name: bilibili
+      weight: -90
+      url: https://space.bilibili.com/4134451
+      params:
+        icon: brand-bilibili
+    - identifier: mail
+      name: mail
+      weight: -80
+      url: mailto:inscripoem@outlook.com
+      params:
+        icon: mail
 
 markup:
   goldmark:
