@@ -1,0 +1,13 @@
+/* Font from https://upyun.inscripoem.com/fonts/sarasa-mono-sc-nerd-regular.ttf */
+@font-face {
+    font-family: 'Sarasa Mono SC Nerd';
+    src: url('https://upyun.inscripoem.com/fonts/sarasa-mono-sc-nerd-regular.ttf') format('truetype');
+}
+
+:root {
+    --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+    --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+
+    --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --code-font-family: Menlo, Monaco, Consolas, "Microsoft YaHei", "PingFang SC", "Sarasa Mono SC Nerd", "Courier New", monospace;
+}
