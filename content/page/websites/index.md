@@ -41,21 +41,27 @@ menu:
 .card {
   display: flex;
   margin: 2em 0;
-  margin-right: 18em;
+  width: 22em;
   align-items: left;
   border-radius: 12px;
   padding: 10px;
-  transition: box-shadow 0.3s ease-in-out;
-  border: 2px solid #999;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+}
+
+html[data-scheme='dark'] .card {
+  background-color: #333;
 }
 
 .card:hover {
+  transform: scale(1.01);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card-img {
   border-radius: 7px;
-  margin: 0 0.6em;
+  margin: 0.2em 0.6em;
   object-fit: contain;
   width: 40px;
 }
