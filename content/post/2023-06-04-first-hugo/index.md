@@ -5,7 +5,8 @@ categories:
 tags:
   - Hugo
   - 博客
-title: "第一次的Hugo"
+title: 第一次的Hugo
+slug: first-hugo
 image: https://www.loliapi.com/acg/?id=2
 ---
 

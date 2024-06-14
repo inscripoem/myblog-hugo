@@ -3,6 +3,7 @@ date: "2022-03-09"
 categories:
   - 开发/服务器踩坑记录
 title: 给你最爱的静态网站加上方便上传管理的git属性吧！
+slug: add-git-to-static-website
 image: https://www.loliapi.com/acg/?id=1
 ---
 

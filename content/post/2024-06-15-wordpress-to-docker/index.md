@@ -1,11 +1,13 @@
 ---
-title: "WordPress 的 Docker 迁移"
+title: WordPress 的 Docker 迁移
 description: 
+slug: wordpress-to-docker
 categories:
     - 开发/服务器踩坑记录
 tags:
     - WordPress
     - Docker
+    - 博客
 date: "2024-06-15T00:00:10+08:00"
 image: https://www.loliapi.com/acg/?id=3
 math: 
