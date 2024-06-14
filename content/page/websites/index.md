@@ -28,8 +28,8 @@ menu:
 
 ## 小游戏
 <!--Mikutap-->
-<a class="card" href="https://mikutap.inscripoem.com/" target="_blank">
-    <img src="https://mikutap.inscripoem.com/favicon.ico" alt="Card image" class="card-img">
+<a class="card" href="https://inscripoem.github.io/mikutap/" target="_blank">
+    <img src="https://inscripoem.github.io/mikutap/favicon.ico" alt="Card image" class="card-img">
     <div class="card-text">
         <p class='card-title'>Mikutap</p>
         <p class='card-discription'>随便拖拖就很好听！</p>
