@@ -9,7 +9,7 @@ tags:
     - Docker
     - 博客
 date: "2024-06-15T00:00:10+08:00"
-image: https://www.loliapi.com/acg/?id=3
+image: cover.jpeg
 math: 
 license: 
 hidden: false
