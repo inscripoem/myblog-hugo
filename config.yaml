@@ -188,23 +188,41 @@ menu:
         icon: rss
   social:
     - identifier: github
-      name: github
+      name: GitHub
       weight: -100
       url: https://github.com/inscripoem
       params:
         icon: brand-github
     - identifier: bilibili
-      name: bilibili
+      name: Bilibili
       weight: -90
       url: https://space.bilibili.com/4134451
       params:
         icon: brand-bilibili
     - identifier: mail
-      name: mail
+      name: 邮件
       weight: -80
       url: mailto:inscripoem@outlook.com
       params:
         icon: mail
+    - identifier: placeholder
+      name: 
+      weight: -75
+      url: 
+      params:
+        icon: grip-vertical
+    - identifier: travelmoe
+      name: 异次元之旅
+      weight: -70
+      url: https://travel.moe/go.html?travel=on
+      params:
+        icon: planet
+    - identifier: travelling
+      name: 开往
+      weight: -60
+      url: https://www.travellings.cn/go.html
+      params:
+        icon: train
 
 markup:
   goldmark:
