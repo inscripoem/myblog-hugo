@@ -8,25 +8,8 @@ menu:
             icon: link
 ---
 
-## 公共服务
-<!--blivechat-->
-<a class="card" href="https://chat.inscripoem.com/" target="_blank">
-    <img src="https://chat.inscripoem.com/favicon.ico" alt="Card image" class="card-img">
-    <div class="card-text">
-        <p class='card-title'>华小科定制版弹幕姬</p>
-        <p class='card-discription'>基于blivechat实现，作者@神马都是包子</p>
-    </div>
-</a>
-<!--RSSHub-->
-<a class="card" href="https://rss.inscripoem.com/" target="_blank">
-    <img src="https://rss.inscripoem.com/favicon.ico" alt="Card image" class="card-img">
-    <div class="card-text">
-        <p class='card-title'>RSSHub</p>
-        <p class='card-discription'>RSS聚合平台</p>
-    </div>
-</a>
-
 ## 小游戏
+
 <!--Mikutap-->
 <a class="card" href="https://inscripoem.github.io/mikutap/" target="_blank">
     <img src="https://inscripoem.github.io/mikutap/favicon.ico" alt="Card image" class="card-img">
@@ -36,6 +19,25 @@ menu:
     </div>
 </a>
 
+<!--五子棋-->
+<a class="card" href="https://inscripoem.github.io/gobang/" target="_blank">
+    <img src="https://inscripoem.github.io/gobang/favicon.png" alt="Card image" class="card-img">
+    <div class="card-text">
+        <p class='card-title'>五子棋</p>
+        <p class='card-discription'>疑似有点太复古了</p>
+    </div>
+</a>
+
+## 工具
+
+<!--OneIMG-->
+<a class="card" href="https://oneimg-ins.vercel.app/" target="_blank">
+    <img src="https://oneimg-ins.vercel.app/icon.png" alt="Card image" class="card-img">
+    <div class="card-text">
+        <p class='card-title'>OneIMG</p>
+        <p class='card-discription'>文本生成长图</p>
+    </div>
+</a>
 
 <style>
 .card {
