@@ -39,6 +39,15 @@ menu:
     </div>
 </a>
 
+<!--Telegraph - IPFS-->
+<a class="card" href="https://ipfs-telegra-ph.vercel.app/" target="_blank">
+    <img src="https://ipfs-telegra-ph.vercel.app/images/favicon_2x.png" alt="Card image" class="card-img">
+    <div class="card-text">
+        <p class='card-title'>Telegraph - IPFS</p>
+        <p class='card-discription'>telegra.ph的IPFS版本</p>
+    </div>
+</a>
+
 <style>
 .card {
   display: flex;
