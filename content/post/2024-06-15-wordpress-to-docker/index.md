@@ -3,7 +3,7 @@ title: WordPress 的 Docker 迁移
 description: 
 slug: wordpress-to-docker
 categories:
-    - 开发/服务器踩坑记录
+    - 折腾记录
 tags:
     - WordPress
     - Docker

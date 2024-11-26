@@ -1,7 +1,7 @@
 ---
 date: "2023-06-04"
 categories:
-  - 杂想
+  - 随想
 tags:
   - Hugo
   - 博客
