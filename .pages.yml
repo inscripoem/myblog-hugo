@@ -1,27 +1,108 @@
 media:
   input: static/media
   output: /media
+
 content:
   - name: posts
-    label: Posts
+    label: 文章
     type: collection
-    path: 'content/post'
+    path: content/post
+    format: yaml-frontmatter
     view:
-      fields: [ title, draft, date ]
+      fields: [title, draft, date]
+      sort: [date, title]
+      search: [title, description, categories, tags]
     fields:
       - name: draft
-        label: Draft
+        label: 草稿
         type: boolean
         default: true
       - name: date
-        label: Date
-        type: date
+        label: 发布日期
+        type: datetime
+        required: true
       - name: title
-        label: Title
+        label: 标题
         type: string
+        required: true
       - name: description
-        label: Description
+        label: 描述
         type: string
+      - name: slug
+        label: URL 别名
+        type: string
+      - name: categories
+        label: 分类
+        type: list
+        field:
+          type: string
+      - name: tags
+        label: 标签
+        type: list
+        field:
+          type: string
+      - name: image
+        label: 封面图
+        type: image
+        options:
+          media: default
+      - name: math
+        label: 启用数学公式
+        type: boolean
+        default: false
+      - name: license
+        label: 许可证
+        type: string
+      - name: hidden
+        label: 隐藏文章
+        type: boolean
+        default: false
+      - name: comments
+        label: 启用评论
+        type: boolean
+        default: true
       - name: body
-        label: Body
+        label: 正文
+        type: rich-text
+
+  - name: pages
+    label: 页面
+    type: collection
+    path: content/page
+    format: yaml-frontmatter
+    view:
+      fields: [title, draft]
+      sort: [title]
+      search: [title, description]
+    fields:
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: true
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: description
+        label: 描述
+        type: string
+      - name: image
+        label: 封面图
+        type: image
+        options:
+          media: default
+      - name: math
+        label: 启用数学公式
+        type: boolean
+        default: false
+      - name: hidden
+        label: 隐藏页面
+        type: boolean
+        default: false
+      - name: comments
+        label: 启用评论
+        type: boolean
+        default: true
+      - name: body
+        label: 正文
         type: rich-text
