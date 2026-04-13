@@ -3,8 +3,8 @@ backend:
   repo: inscripoem/myblog-hugo
   branch: main
 
-media_folder: static/media
-public_folder: /media
+media_folder: assets/index
+public_folder: assets/index
 
 slug:
   encoding: unicode
@@ -88,6 +88,8 @@ collections:
         widget: image
         required: false
         choose_url: true
+        media_folder: ''
+        public_folder: ''
 
       - label: 启用数学公式
         name: math
@@ -153,6 +155,8 @@ collections:
         widget: image
         required: false
         choose_url: true
+        media_folder: ''
+        public_folder: ''
 
       - label: 启用数学公式
         name: math
