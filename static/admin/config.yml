@@ -1,0 +1,174 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: static/media
+public_folder: /media
+
+slug:
+  encoding: unicode
+  clean_accents: false
+
+editor:
+  preview: false
+
+collections:
+  - name: posts
+    label: 文章
+    label_singular: 文章
+    folder: content/post
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: true
+    media_folder: ''
+    public_folder: ''
+    sortable_fields:
+      fields:
+        - commit_date
+        - date
+        - title
+      default:
+        field: date
+        direction: descending
+    view_filters:
+      - label: 草稿
+        field: draft
+        pattern: true
+      - label: 已发布
+        field: draft
+        pattern: false
+    view_groups:
+      - label: 年份
+        field: date
+        pattern: "\\d{4}"
+    fields:
+      - label: 草稿
+        name: draft
+        widget: boolean
+        default: true
+
+      - label: 发布日期
+        name: date
+        widget: datetime
+        required: true
+
+      - label: 标题
+        name: title
+        widget: string
+        required: true
+
+      - label: 描述
+        name: description
+        widget: string
+        required: false
+
+      - label: URL 别名
+        name: slug
+        widget: string
+        required: false
+        hint: 留空则自动生成
+
+      - label: 分类
+        name: categories
+        widget: list
+        required: false
+        allow_add: true
+
+      - label: 标签
+        name: tags
+        widget: list
+        required: false
+        allow_add: true
+
+      - label: 封面图
+        name: image
+        widget: image
+        required: false
+        choose_url: true
+
+      - label: 启用数学公式
+        name: math
+        widget: boolean
+        default: false
+
+      - label: 许可证
+        name: license
+        widget: string
+        required: false
+
+      - label: 隐藏文章
+        name: hidden
+        widget: boolean
+        default: false
+
+      - label: 启用评论
+        name: comments
+        widget: boolean
+        default: true
+
+      - label: 正文
+        name: body
+        widget: markdown
+        required: false
+
+  - name: pages
+    label: 页面
+    label_singular: 页面
+    folder: content/page
+    path: "{{slug}}/index"
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: true
+    media_folder: ''
+    public_folder: ''
+    sortable_fields:
+      fields:
+        - commit_date
+        - title
+      default:
+        field: title
+        direction: ascending
+    fields:
+      - label: 草稿
+        name: draft
+        widget: boolean
+        default: true
+
+      - label: 标题
+        name: title
+        widget: string
+        required: true
+
+      - label: 描述
+        name: description
+        widget: string
+        required: false
+
+      - label: 封面图
+        name: image
+        widget: image
+        required: false
+        choose_url: true
+
+      - label: 启用数学公式
+        name: math
+        widget: boolean
+        default: false
+
+      - label: 隐藏页面
+        name: hidden
+        widget: boolean
+        default: false
+
+      - label: 启用评论
+        name: comments
+        widget: boolean
+        default: true
+
+      - label: 正文
+        name: body
+        widget: markdown
+        required: false
