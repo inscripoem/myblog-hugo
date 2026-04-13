@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: inscripoem/myblog-hugo
   branch: main
 
 media_folder: static/media
